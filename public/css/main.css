@@ -1,0 +1,468 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 7.5rem;
+    width: 100%;
+    /*Fix for nav baar*/
+    background: url('../img/bg-01.png') no-repeat !important;
+    background-size: 100% 100% !important;
+}
+p{
+    color: #657687;
+}
+.navbar{
+    padding: 10px 100px 0 100px;
+}
+.page-full {
+    height: 600px;
+    min-height: 600px;
+}
+
+.content-margin-top {
+    margin-top: 20% !important;
+}
+
+section{
+    /* height: 100vh; */
+    margin: 10% 5% 0 5%;
+}
+.contact{
+    margin: 10% 10% 0 10% !important;
+}
+#clients{
+    height: 100vh;
+    padding-top: 20%;
+}
+#aboutus{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.service-details{
+    font-size: .8em;
+    color: black;
+}
+.subtext-home{
+    margin-bottom: 0 !important;
+}
+
+footer{
+    margin-top: 0!important;
+}
+
+#contact{
+    /* background-image: url('../img/bg-01.png'); */
+    background: url('../img/bg-02.png') no-repeat !important;
+    background-size: 100% 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.font-bold{
+    font-size: 30px;
+}
+/**************************************************************************/
+
+
+/* NAV CSS - Start */
+
+nav {
+    min-height: 7.5rem;
+}
+
+.nav-animate {
+    position: fixed;
+    left: 90%;
+    margin-top: 5px;
+    min-height: 7rem;
+    /*Change this height as per class img-brand*/
+    width: 350px;
+    z-index: 700;
+}
+
+.nav-animate-btn {
+    cursor: pointer;
+    color: rgba(0, 0, 0, .5);
+    /* border-color: rgba(0,0,0,.1); */
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    /* border-radius: .25rem; */
+    border: none;
+    z-index: 950;
+}
+
+.img-brand {
+    max-width: 7rem;
+    max-height: 7rem;
+}
+
+.transition {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.nav-mobile {
+    display: none;
+}
+.nav-form {
+    display: inline-block;
+}
+.brand-logo {
+    width: 25%;
+}
+/* NAV CSS - END */
+
+
+/****************************************************************************/
+
+
+/******************************************************************************/
+
+
+/* COLOR CSS - START */
+
+.color-orange {
+    color: #fc4a1a;
+}
+
+.color-dark-blue {
+    color: #333a56;
+}
+
+.color-white {
+    color: #ffffff;
+}
+
+.color-black {
+    color: #000;
+}
+
+.color-lightgray {
+    color: gray;
+}
+
+
+/* COLOR CSS - END */
+
+
+/******************************************************************************/
+
+
+/******************************************************************************/
+
+
+/* COMMON CSS - START */
+
+.display-none {
+    display: none !important;
+}
+
+html {
+    font-size: 100%;
+}
+
+
+/* COMMON CSS - END */
+
+
+/******************************************************************************/
+
+
+/******************************************************************************/
+
+
+/* FONT CSS - START */
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.font-Bigger-heading,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Cabin Sketch', cursive;
+}
+
+.font-40 {
+    font-size: 2.5rem;
+}
+
+.font-60 {
+    font-size: 3.75rem;
+}
+
+.font-72 {
+    font-size: 4.5rem;
+}
+
+.font-80 {
+    font-size: 5.0rem;
+}
+
+.font-100 {
+    font-size: 5.75rem;
+}
+
+.submit-btn{
+    margin: 20px;
+    float: right;
+    border-color: #333a56 !important;
+    color: #333a56;
+}
+
+.submit-btn:hover{
+    background-color: #333a56 !important;
+    color: #ffffff;
+}
+.input-group-text{
+    background-color: #333a56 !important;
+    color: #ffffff;
+}
+.subtitle-text{
+    margin-top: 30px;
+    font-size: 20px;
+}
+.section-text{
+    margin:auto;
+    display: block;
+}
+.address{
+    margin: auto;
+    display: block;
+    padding: 20px;
+}
+.adress-text{
+    display: block;
+    width: 50%;
+    text-wrap:normal;
+    margin: auto;
+}
+.page-footer{
+    background: #333a56;
+    color: white;
+    font-size: 15px;
+    display: block;
+}
+.copyright{
+    padding: 20px !important;
+}
+.about-text{
+    /*font-size: 20px;*/
+    color: #657687;
+}
+.about-text-body{
+    margin-top: 40px;
+}
+.checkmark{
+    color: black;
+    margin-left: 20px;
+}
+.separator-about{
+    width: 100px;
+    border-bottom: 4px solid black;
+    display: block;
+    margin: auto;
+}
+.separator{
+    width: 100px;
+    border-bottom: 4px solid #fc4a1a;
+    margin-bottom: 20px;
+}
+.service-endtext{
+    margin: 10% 0 0 0;
+}
+/* FONT CSS - END */
+
+
+/******************************************************************************/
+
+
+/******************************************************************************/
+
+
+/* BULB CSS - START */
+
+.light-bulb-off {
+    margin: auto;
+    display: block;
+    position: fixed;
+    top: -300px;
+    /* left: 40%; */
+    max-height: 341px;
+}
+
+.light-bulb-on {
+    margin: auto;
+    display: block;
+    position: fixed;
+    top: -300px;
+    /* left: 40%; */
+    max-height: 385px; 
+}
+
+
+/* BULB CSS - END */
+
+
+/******************************************************************************/
+
+
+/******************************************************************************/
+
+
+/* Template CSS - START */
+
+.icon-default {
+    font-size: 3.75rem;
+    color: #fc4a1a;
+}
+
+.icon-background {
+    color: #333a56;
+}
+
+.arrow-icon-default {
+    font-size: 3.75rem;
+    color: grey;
+    border: 2px
+}
+
+img {
+    max-width: 100%;
+}
+
+#down-arrow {
+    color: white;
+}
+
+.section-image img{
+    width: 80%;
+    margin: auto;
+    display: block;
+}
+.aboutus-heading{
+    margin-bottom: 20px;
+}
+
+.home-subtext-body{
+    margin-top: 20px;
+}
+.btn-cross{
+    width: 50px;
+}
+nav{
+    font-size: 15px;
+}
+.reachus{
+    margin-top: 100px;
+}
+.contact{
+    font-size: 14px;
+}
+
+/* Template CSS - END */
+
+
+/******************************************************************************/
+
+@media screen and (max-width: 992px) {
+    .container {
+        padding-bottom: 30%;
+    }
+    p {
+        line-height: 100%
+    }
+    body {
+        font-size: 1.5rem;
+    }
+    .nav-mobile {
+        display: inline-block;
+    }
+    .nav-form {
+        display: none !important;
+    }
+    .light-bulb-off{
+        display: none !important;
+    }
+    .light-bulb-on{
+        display: none !important;
+    }
+    .brand-logo {
+        width: 75px !important;
+    }
+    .navbar{
+        background: white;
+    }
+    .navbar-nav{
+        float: right;
+        text-align: right;
+        background: white;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding-bottom: 40%;
+    }
+    p {
+        line-height: 100%
+    }
+    body {
+        font-size: 1.2rem;
+    }
+    .light-bulb-off{
+        display: none !important;
+    }
+    .light-bulb-on{
+        display: none !important;
+    }
+    .brand-logo {
+        width: 75px !important;
+    }
+    .navbar{
+        background: white;
+    }
+    .navbar-nav{
+        float: right;
+        text-align: right;
+        background: white;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        padding-bottom: 50%;
+    }
+    p {
+        line-height: 100%
+    }
+    body {
+        font-size: 1rem;
+    }
+
+    .light-bulb-on{
+        display: none !important;
+    }
+    .brand-logo {
+        width: 75px !important;
+    }
+    .navbar{
+        background: white;
+    }
+    .navbar-nav{
+        float: right;
+        text-align: right;
+        background: white;
+    }
+}
